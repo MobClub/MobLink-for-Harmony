@@ -1,0 +1,81 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "srcEntry": "./ets/MyAbilityStage.ets",
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:moblink_demo_icon",
+        "label": "$string:app_name",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home",
+              "ohos.want.action.viewData"
+            ],
+            "actions": [
+              "action.system.home",
+              "ohos.want.action.viewData"
+            ],
+            "uris": [
+              {
+                // scheme必选，可以自定义，以link为例，需要替换为实际的scheme
+                "scheme": "mlink",
+                // host必选，配置待匹配的域名
+                "host": "com.mob.moblink.hosnext.demo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "EntryAbilityA",
+        "srcEntry": "./ets/entryabilitya/EntryAbilityA.ets",
+        "description": "$string:EntryAbilityA_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:EntryAbilityA_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background"
+      },
+      {
+        "name": "EntryAbilityB",
+        "srcEntry": "./ets/entryabilityb/EntryAbilityB.ets",
+        "description": "$string:EntryAbilityB_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:EntryAbilityB_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background"
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "metadata": [
+      {
+        "name": "MoblinkChannel",
+        "value": "moblinkDemo"
+      }
+    ]
+  }
+}

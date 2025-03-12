@@ -1,0 +1,210 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build",
+    "DEPENDENCY_INFO": {
+      "@zztsdk/zztcore": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/oh_modules/.ohpm/@zztsdk+zztcore@+o+ktbp+bs65mn3a2brrwaxp4c4g8bp0rfnj9dvfr7u=/oh_modules/@zztsdk/zztcore",
+      "@zztsdk/moblink": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/oh_modules/.ohpm/@zztsdk+moblink@hf0sc0bgfxook5hk5sqnjsjeybkijr1j3ibbla8pj+g=/oh_modules/@zztsdk/moblink",
+      "@yyz116/jsbn": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/oh_modules/.ohpm/@yyz116+jsbn@1.0.2/oh_modules/@yyz116/jsbn"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/src/main",
+        "RESOURCES_PATH": [
+          "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/hap_metadata/default/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/source_map/default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "debug": {
+        "SOURCE_ROOT": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/src/main",
+        "RESOURCES_PATH": [
+          "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/outputs/debug",
+          "INTERMEDIA_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/loader_out/debug",
+          "JS_LITE_ASSETS_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/loader_out_lite/debug",
+          "RES_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/res/debug",
+          "RES_PROFILE_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/res/debug/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/cache/debug/debug@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/cache/debug/debug@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/loader/debug/loader.json",
+          "MANIFEST_JSON": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/manifest/debug",
+          "OUTPUT_METADATA_JSON": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/hap_metadata/debug/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/source_map/debug"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/src/ohosTest",
+        "RESOURCES_PATH": [
+          "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/src/ohosTest/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json",
+          "SOURCE_MAP_DIR": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry/build/default/intermediates/source_map/ohosTest"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      },
+      "default-debug": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "strictMode": {
+          "useNormalizedOHMUrl": true
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/build",
+    "BUNDLE_NAME": "com.mob.moblink.hosnext.demo",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo/entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.0(12)",
+            "runtimeOS": "HarmonyOS",
+            "buildOption": {
+              "strictMode": {
+                "useNormalizedOHMUrl": true
+              }
+            }
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true,
+      "ohos.sign.har": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "/Users/yanyuhang/Project/HOSProject/MobLink-HOS-Demo"
+    ],
+    "BUILD_CACHE_DIR": ""
+  },
+  "version": 1
+}
